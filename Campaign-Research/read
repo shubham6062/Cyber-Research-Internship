@@ -1,1 +1,69 @@
+# Operation AkaiRyu Campaign Research
 
+## Overview
+This repository contains detailed cybersecurity threat intelligence and campaign research on **Operation AkaiRyu (RedDragon)**, a sophisticated cyber espionage campaign attributed to **MirrorFace (Earth Kasha)**, a subgroup of **APT10 (menuPass)**.
+
+The research focuses on:
+- Threat actor profiling
+- Campaign timeline
+- Attack flow analysis
+- MITRE ATT&CK mapping
+- Indicators of Compromise (IOCs)
+- Detection opportunities
+- Defensive recommendations
+- Real-world incidents
+
+---
+
+## Campaign Information
+
+| Field | Details |
+|-------|---------|
+| Campaign Name | Operation AkaiRyu |
+| Threat Group | MirrorFace / Earth Kasha |
+| Parent Group | APT10 (menuPass) |
+| MITRE Group ID | G1054 |
+| Campaign Type | Cyber Espionage |
+| Timeline | June – September 2024 |
+| Classification | TLP: WHITE |
+
+---
+
+## Research Topics Covered
+
+- Executive Summary
+- Threat Actor Attribution
+- Campaign Overview
+- Targeted Sectors & Countries
+- Attack Flow
+- MITRE ATT&CK Techniques
+- Real-World Incidents
+- Detection Opportunities
+- Defensive Recommendations
+- IOC Collection
+- References & Sources
+
+---
+
+## Key Techniques Observed
+
+- Spearphishing
+- DLL Side-Loading
+- PowerShell Execution
+- Windows Sandbox Abuse
+- VS Code Remote Tunnels
+- Credential Theft
+- Kerberos Abuse
+- Scheduled Task Persistence
+- Chrome Data Exfiltration
+
+---
+
+## Malware & Tools Identified
+
+- ANEL Backdoor
+- HiddenFace
+- AsyncRAT
+- Rubeus
+- PuTTY
+- Hidden Start
