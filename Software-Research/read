@@ -1,1 +1,96 @@
+# MITRE ATT&CK Software Analysis (S0600–S0610)
 
+## Overview
+
+This repository contains detailed analysis and research on multiple software entries from the MITRE ATT&CK framework, specifically software IDs S0600 to S0610.
+
+The project focuses on:
+- Malware analysis
+- Threat actor associations
+- ATT&CK techniques
+- Persistence mechanisms
+- Defense evasion
+- Credential access
+- Command & Control (C2)
+- Indicators of Compromise (IOCs)
+- Detection & mitigation strategies
+
+---
+
+## Software Covered
+
+| MITRE ID | Software Name | Type |
+|----------|---------------|------|
+| S0600 | Doki | Backdoor / Malware |
+| S0601 | DropBook | Malware |
+| S0602 | Circles | Spyware / Surveillance Platform |
+| S0603 | Rootkit GTM | Rootkit |
+| S0604 | ElectroRAT | Remote Access Trojan |
+| S0605 | GoldenSpy | Backdoor |
+| S0606 | PowerPunch | Malware Loader |
+| S0607 | FatDuke | Malware |
+| S0608 | Zebracon | Malware |
+| S0609 | DEADEYE | Malware |
+| S0610 | SideTwist | Backdoor |
+
+---
+
+## Research Areas
+
+The analysis includes:
+
+- Name & Type
+- Malware Description
+- Threat Actor Association
+- Supported Platforms
+- MITRE ATT&CK Techniques
+- Execution Methods
+- Persistence Techniques
+- Privilege Escalation
+- Defense Evasion
+- Credential Access
+- Discovery Techniques
+- Lateral Movement
+- Command & Control
+- Exfiltration Methods
+- Impact Analysis
+- Indicators of Compromise (IOCs)
+- Detection & Mitigation
+- References & Sources
+
+---
+
+## Key Threat Groups Mentioned
+
+- APT29 (Cozy Bear)
+- OilRig (APT34)
+- Advanced Persistent Threat (APT) groups
+- Cyber espionage operators
+- State-linked threat actors
+- Cryptocurrency-focused attackers
+
+---
+
+## Common ATT&CK Techniques Observed
+
+Some commonly observed MITRE ATT&CK techniques include:
+
+- T1059 — Command and Scripting Interpreter
+- T1071 — Application Layer Protocol
+- T1055 — Process Injection
+- T1027 — Obfuscated Files or Information
+- T1105 — Ingress Tool Transfer
+- T1547 — Boot or Logon Autostart Execution
+- T1555 — Credentials from Password Stores
+- T1014 — Rootkit
+
+---
+
+## Platforms Targeted
+
+- Windows
+- Linux
+- macOS
+- Docker
+- Cloud environments
+- Telecom infrastructure
