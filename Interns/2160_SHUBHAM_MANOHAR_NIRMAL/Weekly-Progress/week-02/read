@@ -1,1 +1,77 @@
+# 🔴 TRITON Malware — Intelligence Platform Report
 
+A structured threat intelligence document on the **TRITON / TRISIS / HatMan** ICS malware family, built as part of the **RedKross Unified Threat Intelligence Platform** research series.
+
+---
+
+## 📄 About
+
+This repository contains a professionally formatted PDF intelligence report on **TRITON**, the first publicly known malware designed to target **Safety Instrumented Systems (SIS)** in industrial control environments. The report follows the RedKross platform documentation standard used for malware family intelligence pages.
+
+> **Intern:** Shubham Manohar Nirmal | **ID:** 2160
+> **Course:** Cybersecurity Fundamentals / ICS Malware Analysis
+> **Date:** 20 May 2026
+
+---
+
+## 📑 Report Sections
+
+| # | Section |
+|---|---------|
+| 1 | Executive Summary |
+| 2 | Scope of Report |
+| 3 | Malware Family Overview |
+| 4 | Discovery History & Timeline |
+| 5 | Technical Architecture & Infection Chain |
+| 6 | Threat Actor Profile (TEMP.Veles / XENOTIME / TsNIIKhM) |
+| 7 | Campaign Tracking |
+| 8 | MITRE ATT&CK for ICS Mappings |
+| 9 | IOC Knowledge Base (Hashes, Filenames, Network Indicators) |
+| 10 | YARA Detection Rules |
+| 11 | Victimology & Target Profile |
+| 12 | Infrastructure Notes |
+| 13 | Behavioral Characteristics & Unique Artifacts |
+| 14 | Persistence, Privilege Escalation & Exfiltration |
+| 15 | Mitigation & Defensive Countermeasures |
+| 16 | Related Malware & ICS Threat Comparisons |
+| 17 | References & Source Attribution |
+
+---
+
+## 🧬 Malware Quick Facts
+
+- **Aliases:** TRISIS, HatMan
+- **Type:** ICS Attack Framework / SIS Manipulation Tool
+- **First Seen:** June 2017 — Saudi Arabia petrochemical facility
+- **Disclosed:** December 14, 2017 (Mandiant / Dragos)
+- **Attribution:** TsNIIKhM, Russian Federation (TEMP.Veles / XENOTIME)
+- **Target:** Schneider Electric Triconex Tricon safety controllers
+- **Impact:** Potential physical destruction, loss of life, environmental damage
+
+---
+
+## 🛠️ Built With
+
+- **Python 3** — report generation script
+- **ReportLab** — PDF layout and rendering
+- **Sources:** Mandiant, Dragos, CISA, FBI, MITRE ATT&CK for ICS, US DOJ
+
+---
+
+## ⚠️ Disclaimer
+
+This report is intended strictly for **educational and research purposes**. All information is sourced from publicly available threat intelligence reports. No malware samples, exploit code, or operational attack details are included.
+
+---
+
+## 📚 Key References
+
+- [Mandiant — TRITON Framework (2017)](https://cloud.google.com/blog/topics/threat-intelligence/attackers-deploy-new-ics-attack-framework-triton)
+- [CISA Advisory AA22-083A (2022)](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-083a)
+- [MITRE ATT&CK Group G0088 — TEMP.Veles](https://attack.mitre.org/groups/G0088/)
+- [MITRE ATT&CK Campaign C0030](https://attack.mitre.org/campaigns/C0030/)
+- [FBI PIN — TRITON Remains a Threat (2022)](https://www.ic3.gov/CSA/2022/220325.pdf)
+
+---
+
+*RedKross Unified Threat Intelligence Platform — Malware Family Module — TLP:WHITE*
