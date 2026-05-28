@@ -1,1 +1,90 @@
+# Using Application Functionality to Exploit Insecure Deserialization
+
+## Overview
+
+This repository contains my walkthrough and notes for the PortSwigger Web Security Academy Practitioner Lab:
+
+**Lab:** Using Application Functionality to Exploit Insecure Deserialization
+
+The lab demonstrates how insecure deserialization vulnerabilities can allow attackers to manipulate serialized objects stored inside session cookies and abuse dangerous server-side functionality.
+
+---
+
+## Concepts Covered
+
+* Insecure Deserialization
+* PHP Serialized Objects
+* Session Cookie Manipulation
+* Base64 Encoding & Decoding
+* Arbitrary File Deletion
+* Dangerous PHP Methods (`unlink()`)
+* Burp Suite Repeater & Decoder
+* Web Application Security Testing
+
+---
+
+## Lab Objective
+
+The goal of the lab was to:
+
+* Modify a serialized session object
+* Change a vulnerable file path property
+* Trigger unsafe application functionality
+* Delete the target file from Carlos's home directory
+
+---
+
+## Tools Used
+
+* Burp Suite
+* PortSwigger Web Security Academy
+* Browser Developer Tools
+
+---
+
+## Exploitation Steps
+
+1. Log in using provided credentials
+2. Capture the session cookie using Burp Suite
+3. Decode the Base64 serialized object
+4. Identify vulnerable object properties
+5. Modify the file path inside the serialized object
+6. Correct PHP serialization string lengths
+7. Re-encode the payload into Base64
+8. Replace the session cookie
+9. Trigger the vulnerable functionality
+10. Successfully delete the target file
+
+---
+
+## Key Learning
+
+This lab helped me understand how applications that trust client-controlled serialized data can become vulnerable to severe server-side attacks such as:
+
+* Arbitrary File Deletion
+* Authentication Bypass
+* Privilege Escalation
+* Remote Code Execution (in advanced cases)
+
+---
+
+## Disclaimer
+
+This repository is created strictly for educational purposes and ethical cybersecurity learning through legal lab environments provided by PortSwigger Web Security Academy.
+
+---
+
+## References
+
+* PortSwigger Web Security Academy
+* OWASP Insecure Deserialization
+* Burp Suite Documentation
+
+---
+
+## Author
+
+Shubham Nirmal
+
+Cybersecurity Learner | Web Security Enthusiast | Bug Bounty Beginner
 
