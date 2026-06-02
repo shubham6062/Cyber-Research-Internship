@@ -1,1 +1,50 @@
+# 🔐 Cybersecurity Assessment Report
 
+## 📋 Overview
+
+This project presents a detailed cybersecurity assessment of system devices, drivers, and hardware components identified within a Windows environment.
+
+The assessment focuses on **Device Anchors 601–610**, analyzing:
+
+- Driver security posture
+- Hardware attack surface
+- Potential privilege escalation vectors
+- Remote access risks
+- USB-related threats
+- Firmware and chipset vulnerabilities
+
+The objective is to identify security weaknesses, evaluate risk levels, and provide actionable remediation recommendations.
+
+---
+
+## 🎯 Assessment Scope
+
+The following components were analyzed:
+
+| Anchor | Component |
+|----------|------------|
+| 601 | Intel PCI System Device |
+| 602 | Remote Desktop Device Redirector (RDPBUS) |
+| 603 | Intel Management Engine Interface |
+| 604 | USB Root Hub (USB 3.0) |
+| 605 | USB Composite Device |
+| 606 | Intel USB 3.0 eXtensible Host Controller |
+| 607 | Generic PnP Monitor |
+| 608 | Generic PnP Monitor |
+| 609 | Intel HD Graphics 630 |
+| 610 | Intel HD Graphics 630 |
+
+---
+
+# 🚨 Executive Summary
+
+The assessment identified multiple security concerns across drivers, remote access services, USB infrastructure, and firmware components.
+
+## High-Risk Findings
+
+### 🔴 Auto Logon Enabled
+- Authentication bypass possible
+- Physical access equals system access
+- Increased risk of unauthorized usage
+
+:
