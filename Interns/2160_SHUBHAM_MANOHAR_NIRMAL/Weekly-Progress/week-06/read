@@ -1,1 +1,63 @@
+# CVE Threat Intelligence Dashboard
 
+## Overview
+
+The CVE Threat Intelligence Dashboard is a cybersecurity platform designed to monitor, analyze, and prioritize vulnerabilities using real-time threat intelligence. The dashboard aggregates data from multiple vulnerability sources and provides actionable insights for security teams.
+
+## Features
+
+- Real-Time CVE Monitoring
+- CVSS Risk Scoring
+- EPSS-Based Prioritization
+- Threat Intelligence Correlation
+- Exploit Availability Tracking
+- Patch Management Support
+- Incident Response Integration
+- Security Analytics Dashboard
+
+## Project Architecture
+
+### Data Sources
+- NVD
+- MITRE CVE Database
+- CISA Known Exploited Vulnerabilities
+- Exploit-DB
+- Vendor Security Advisories
+
+### Workflow
+1. Vulnerability Collection
+2. Threat Intelligence Enrichment
+3. Risk Scoring
+4. Asset Correlation
+5. Alert Generation
+6. Remediation Tracking
+
+## Technology Stack
+
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+## Benefits
+
+- Faster Vulnerability Detection
+- Reduced MTTR
+- Improved Risk Visibility
+- Better Threat Prioritization
+
+## Future Enhancements
+
+- SOAR Integration
+- AI-Based Risk Prediction
+- Automated Remediation
+- Threat Hunting Module
+
+## Author
+
+**Shubham Nirmal**
