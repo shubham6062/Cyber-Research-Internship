@@ -1,1 +1,99 @@
+# Metasploitable 2 Penetration Testing Report
+
+## 📌 Project Overview
+This project demonstrates a penetration testing assessment performed on the intentionally vulnerable **Metasploitable 2** virtual machine using the **Metasploit Framework**. The objective was to identify exploitable services, gain system access, and understand common security weaknesses in a controlled lab environment.
+
+**Intern ID:** 2160  
+**Author:** Shubham Nirmal  
+**Environment:** Kali Linux → Metasploitable 2  
+**Tool Used:** Metasploit Framework
+
+---
+
+## 🎯 Objectives
+
+- Identify vulnerable network services.
+- Exploit known vulnerabilities using Metasploit modules.
+- Validate unauthorized access possibilities.
+- Understand privilege escalation opportunities.
+- Document findings and security impact.
+
+---
+
+## 🛠️ Technologies & Tools
+
+- Kali Linux
+- Metasploit Framework
+- Nmap
+- Meterpreter
+- Linux Command Line
+
+---
+
+## 🔍 Target Information
+
+| Target | Service | Port |
+|----------|----------|---------|
+| UnrealIRCD | IRC Server | 6667 |
+| Samba | File Sharing Service | 139, 445 |
+| Java RMI | Remote Method Invocation | 1099 |
+| Apache Tomcat Manager | Web Application Server | 8180 |
+
+---
+
+# Exploitation Summary
+
+## 1️⃣ UnrealIRCD Backdoor Exploit
+### Result
+- Meterpreter session established
+- Root-level access verified
+
+## 2️⃣ Samba Usermap Script Exploit
+### Result
+- Remote command execution achieved
+- Root shell obtained
+
+## 3️⃣ Java RMI Server Exploit
+### Result
+- Remote code execution successful
+- System information gathered
+
+## 4️⃣ Apache Tomcat Manager Exploit
+### Result
+- Remote shell obtained
+- Access gained with Tomcat privileges
+
+---
+
+## 📊 Findings Summary
+
+| Vulnerability | Severity | Access Obtained |
+|--------------|----------|----------------|
+| UnrealIRCD Backdoor | Critical | Root Access |
+| Samba Usermap Script | Critical | Root Access |
+| Java RMI Misconfiguration | High | Remote Code Execution |
+| Tomcat Default Credentials | High | Application Shell |
+
+---
+
+## 🔐 Security Recommendations
+
+- Keep services updated and patched.
+- Remove default credentials.
+- Restrict unnecessary network exposure.
+- Implement authentication and access controls.
+
+---
+
+## ⚠️ Disclaimer
+
+This project was conducted in a controlled laboratory environment for educational and research purposes only.
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Nirmal**  
+**Intern ID:** 2160  
+Cyber Security Intern
 
