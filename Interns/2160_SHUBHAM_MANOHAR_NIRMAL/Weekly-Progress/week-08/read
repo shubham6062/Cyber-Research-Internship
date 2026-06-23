@@ -1,1 +1,47 @@
+FTK (Forensic Toolkit) Lab Report
+Overview
 
+This repository contains a practical digital forensics lab assignment performed using FTK Imager. The project demonstrates the complete forensic investigation workflow, including evidence acquisition, analysis, forensic imaging, hash verification, and file recovery.
+
+Tool Used
+FTK Imager (Forensic Toolkit)
+Digital Forensics Methodology
+Objectives
+Acquire digital evidence safely
+Examine file systems and metadata
+Identify deleted files
+Create forensic disk images
+Verify evidence integrity using hashes
+Export evidence for further investigation
+Key Activities
+Launch FTK Imager
+Add Evidence Item
+Select Evidence Source
+Explore Evidence Tree
+Browse File System
+View File Contents
+Analyze File Metadata
+Identify Deleted Files
+Create Forensic Image
+Configure Image Format
+Add Case Information
+Perform Disk Imaging
+Verify MD5 & SHA1 Hashes
+Export Files
+Generate File Hashes
+Final Evidence Review
+Skills Demonstrated
+Digital Forensics
+Evidence Acquisition
+Chain of Custody
+Hash Verification
+Incident Investigation
+File System Analysis
+Forensic Imaging
+Key Learning Outcomes
+
+FTK Imager provides a forensically sound environment for acquiring and analyzing digital evidence while maintaining data integrity and legal admissibility.
+
+Author
+
+Shubham Nirmal
