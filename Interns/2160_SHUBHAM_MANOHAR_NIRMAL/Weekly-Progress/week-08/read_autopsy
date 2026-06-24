@@ -1,0 +1,56 @@
+Autopsy Digital Forensics Investigation
+Overview
+
+This repository contains a complete digital forensics investigation walkthrough performed using Autopsy 4.23.1. The project demonstrates the process of creating a forensic case, importing disk image evidence, configuring ingest modules, performing timeline and media analysis, and generating a forensic investigation report. The investigation was conducted on a Sony forensic disk image (.001 format).
+
+Tool Used
+Autopsy 4.23.1
+The Sleuth Kit (TSK)
+Project Objectives
+Create and configure a forensic investigation case
+Import and analyze disk image evidence
+Configure automated ingest modules
+Perform timeline analysis
+Investigate multimedia artifacts
+Generate professional forensic reports
+Document digital evidence findings
+Key Activities Performed
+Created a new forensic case
+Added Sony .001 disk image evidence
+Configured ingest modules
+Processed and indexed evidence
+Explored file system structures
+Investigated image and video artifacts
+Conducted timeline analysis
+Identified communication artifacts
+Generated HTML forensic reports
+Reviewed investigation findings
+Features Explored
+File System Analysis
+Timeline Analysis
+Image/Video Gallery
+Keyword Search
+Hash Lookup
+Email Artifact Analysis
+File Carving (PhotoRec)
+Report Generation
+Skills Demonstrated
+Digital Forensics
+Incident Investigation
+Evidence Analysis
+Timeline Reconstruction
+Report Writing
+File System Examination
+Artifact Identification
+Key Findings
+Successfully processed and analyzed a Sony forensic disk image.
+Identified image artifacts and communication-related evidence.
+Timeline analysis revealed file activity spanning multiple years.
+Generated a forensic HTML report documenting findings.
+Learning Outcomes
+
+This project provided practical experience in digital forensic investigations using Autopsy and demonstrated how forensic analysts collect, process, analyze, and document digital evidence while maintaining investigation integrity.
+
+Author
+
+Shubham Nirmal
